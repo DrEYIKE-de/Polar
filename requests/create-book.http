@@ -1,0 +1,12 @@
+### GET request to example server
+POST http://localhost:9001/books
+Content-Type: application/json
+
+{
+"auth":"Lyroy Silverstar",
+ "title":"Northern Lights",
+ "isbn":"1234567890",
+ "price": 9.90
+}
+
+###
